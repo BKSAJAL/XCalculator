@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .app {
   display: flex;
   justify-content: center;
@@ -39,4 +43,5 @@ button {
   height: 3rem;
   border-radius: 5px;
   cursor: pointer;
+  font-family: inherit;
 }
