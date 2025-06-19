@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  outline: none;
+  padding: 4px;
+  margin-top: 1rem;
+}
+
+.keypad {
+  margin-top: 1rem;
+}
+
+.btn-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
